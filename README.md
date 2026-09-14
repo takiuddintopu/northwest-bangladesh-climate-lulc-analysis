@@ -221,11 +221,35 @@ Several limitations should be considered when interpreting the results:
 
 ## 📁 Repository Structure
 
-```text
-├── data/
+northwest-bangladesh-climate-lulc-analysis/
+│
+├── README.md
+│
 ├── figures/
-├── gis/
-├── results/
+│   ├── study-area/
+│   ├── climate-trends/
+│   ├── climatology/
+│   ├── extreme-precipitation/
+│   ├── lulc/
+│   └── correlations/
+│
 ├── scripts/
+│   ├── trend-analysis/
+│   ├── gev-analysis/
+│   └── correlation-analysis/
+│
+├── results/
+│   ├── tables/
+│   └── summary/
+│
+├── gis/
+│   ├── climate-maps/
+│   └── lulc/
+│
+├── data/
+│   └── README.md
+│
 ├── thesis/
-└── README.md
+│   └── thesis.pdf
+│
+└── LICENSE
