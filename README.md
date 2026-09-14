@@ -221,7 +221,7 @@ Several limitations should be considered when interpreting the results:
 
 ## 📁 Repository Structure
 
-northwest-bangladesh-climate-lulc-analysis/
+```northwest-bangladesh-climate-lulc-analysis/
 │
 ├── README.md
 │
