@@ -49,7 +49,7 @@ The climatic analysis covers the period **1973–2023**.
 
 The study area was selected to provide a district-level comparison of climatic behavior within the broader northwestern region of Bangladesh.
 
-![Study Area Map](figures/01-study-area/study area map.png)
+![Study Area Map](figures/01-study-area/study-area-map.png)
 
 ---
 
