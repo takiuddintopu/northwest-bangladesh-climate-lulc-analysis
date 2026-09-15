@@ -49,6 +49,8 @@ The climatic analysis covers the period **1973–2023**.
 
 The study area was selected to provide a district-level comparison of climatic behavior within the broader northwestern region of Bangladesh.
 
+![Study Area Map](figures/01-study-area/study-area.png)
+
 ---
 
 ## 📊 Data
@@ -89,7 +91,9 @@ Agricultural land was not retained as a separate class because it could not be c
 
 ## 🔬 Methodology
 
-The analysis followed an integrated spatial, statistical, and extreme-value framework.
+The overall analytical workflow integrated spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
+
+![Methodological Framework](figures/02-methodological-framework/Methodological-framework.png)
 
 ### Climate Analysis
 
@@ -226,12 +230,14 @@ Several limitations should be considered when interpreting the results:
 ├── README.md
 │
 ├── figures/
-│   ├── study-area/
-│   ├── climate-trends/
-│   ├── climatology/
-│   ├── extreme-precipitation/
-│   ├── lulc/
-│   └── correlations/
+│   ├── 01-study-area/
+│   ├── 02-analytical-framework/
+│   ├── 03-climate-maps/
+│   ├── 04-climate-trends/
+│   ├── 05-climatology/
+│   ├── 06-lulc/
+│   ├── 07-extreme-precipitation/
+│   └── 08-correlations/
 │
 ├── scripts/
 │   ├── trend-analysis/
