@@ -202,7 +202,7 @@ Agricultural land was not retained as a separate class because it could not be c
 
 ## Rajshahi
 
-![Rajshahi LULC Change](figures/05-lulc/Rajshahi%20LULC.png)
+![Rajshahi LULC Change](figures/05-lulc/Rajshahi_LULC.png)
 
 ## Pabna
 
