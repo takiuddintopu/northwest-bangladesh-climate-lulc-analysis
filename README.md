@@ -51,7 +51,7 @@ The study area was selected to provide a district-level comparison of climatic b
 
 ### Study Area Map
 
-![Study Area Map](figures/01-study-area/study%20area%20map.png)
+![Study Area Map](figures/01-study-area/study-area-map.png)
 
 ---
 
@@ -60,7 +60,7 @@ The study area was selected to provide a district-level comparison of climatic b
 The study followed an integrated analytical framework combining spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
 
 
-![Methodological Framework](figures/02-methodological-framework/Methodological_Framework_Diagram.png)
+![Methodological Framework](figures/02-methodological-framework/methodological-framework-diagram.png)
 
 ---
 
@@ -123,19 +123,19 @@ The spatial distribution of the climatic parameters was examined across the four
 
 ### Annual Rainfall
 
-![Thematic Map of Rainfall](figures/03-climate-maps/thematic%20map%20rainfall.png)
+![Thematic Map of Rainfall](figures/03-climate-maps/thematic-map-rainfall.png)
 
 ### Mean Temperature
 
-![Thematic Map of Temperature](figures/03-climate-maps/thematic%20map%20temp.png)
+![Thematic Map of Temperature](figures/03-climate-maps/thematic-map-temp.png)
 
 ### Relative Humidity
 
-![Thematic Map of Relative Humidity](figures/03-climate-maps/thematic%20map%20humidity.png)
+![Thematic Map of Relative Humidity](figures/03-climate-maps/thematic-map-humidity.png)
 
 ### Wind Speed
 
-![Thematic Map of Wind Speed](figures/03-climate-maps/thematic%20map%20wind.png)
+![Thematic Map of Wind Speed](figures/03-climate-maps/thematic-map-wind.png)
 
 ---
 
@@ -145,19 +145,19 @@ Long-term trends in rainfall, temperature, relative humidity, and wind speed wer
 
 ## Annual Rainfall Trend
 
-![Annual Rainfall Mann-Kendall Trend](figures/04-climate-trends/Rainfall_MannKendall_Trend.png)
+![Annual Rainfall Mann-Kendall Trend](figures/04-climate-trends/rainfall-mannkendall-trend.png)
 
 ## Mean Temperature Trend
 
-![Mean Temperature Mann-Kendall Trend](figures/04-climate-trends/MeanTemp_MannKendall_Trend.png)
+![Mean Temperature Mann-Kendall Trend](figures/04-climate-trends/meantemp-mannkendall-trend.png)
 
 ## Relative Humidity Trend
 
-![Relative Humidity Mann-Kendall Trend](figures/04-climate-trends/Humidity_MannKendall_Trend.png)
+![Relative Humidity Mann-Kendall Trend](figures/04-climate-trends/humidity-mannkendall-trend.png)
 
 ## Wind Speed Trend
 
-![Wind Speed Mann-Kendall Trend](figures/04-climate-trends/WindSpeed_MannKendall_Trend.png)
+![Wind Speed Mann-Kendall Trend](figures/04-climate-trends/windspeed-mannkendall-trend.png)
 
 ---
 
@@ -167,19 +167,19 @@ The seasonal and monthly behavior of the climatic parameters was examined to cha
 
 ## Monthly Rainfall Climatology
 
-![Monthly Rainfall Climatology](figures/06-seasonal-climatology/Rainfall_MonthlyClimatology.png)
+![Monthly Rainfall Climatology](figures/06-seasonal-climatology/rainfall-monthly-climatology.png)
 
 ## Monthly Temperature Climatology
 
-![Monthly Temperature Climatology](figures/06-seasonal-climatology/Temperature_MonthlyClimatology.png)
+![Monthly Temperature Climatology](figures/06-seasonal-climatology/temperature-monthly-climatology.png)
 
 ## Monthly Relative Humidity Climatology
 
-![Monthly Humidity Climatology](figures/06-seasonal-climatology/Humidity_MonthlyClimatology.png)
+![Monthly Humidity Climatology](figures/06-seasonal-climatology/humidity-monthly-climatology.png)
 
 ## Monthly Wind Speed Climatology
 
-![Monthly Wind Speed Climatology](figures/06-seasonal-climatology/WindSpeed_MonthlyClimatology.png)
+![Monthly Wind Speed Climatology](figures/06-seasonal-climatology/windspeed-monthly-climatology.png)
 
 The climatic variables exhibit a strong seasonal cycle, with rainfall concentrated mainly during the monsoon season and substantially lower rainfall during winter.
 
@@ -202,19 +202,19 @@ Agricultural land was not retained as a separate class because it could not be c
 
 ## Rajshahi
 
-![Rajshahi LULC Change](figures/05-lulc/Rajshahi_LULC.png)
+![Rajshahi LULC Change](figures/05-lulc/rajshahi-lulc.png)
 
 ## Pabna
 
-![Pabna LULC Change](figures/05-lulc/Pabna_LULC.png)
+![Pabna LULC Change](figures/05-lulc/pabna-lulc.png)
 
 ## Natore
 
-![Natore LULC Change](figures/05-lulc/Natore_LULC.png)
+![Natore LULC Change](figures/05-lulc/natore-lulc.png)
 
 ## Bogura
 
-![Bogura LULC Change](figures/05-lulc/Bogura_LULC.png)
+![Bogura LULC Change](figures/05-lulc/bogura-lulc.png)
 
 The LULC results are interpreted as evidence of broad landscape change rather than exact measurements of individual land conversions.
 
@@ -230,15 +230,15 @@ Therefore, the extreme-value analysis represents **annual maximum monthly rainfa
 
 ## Annual Maximum Series Trends
 
-![AMS Rainfall Trends](figures/07-extreme-precipitation/AMS_Trends.png)
+![AMS Rainfall Trends](figures/07-extreme-precipitation/ams-trends.png)
 
 ## GEV Q-Q Diagnostics
 
-![GEV Q-Q Diagnostics](figures/07-extreme-precipitation/GEV_QQ_Diagnostics.png)
+![GEV Q-Q Diagnostics](figures/07-extreme-precipitation/gev-qq-diagnostics.png)
 
 ## GEV Return Levels
 
-![GEV Return Levels](figures/07-extreme-precipitation/GEV_ReturnLevels.png)
+![GEV Return Levels](figures/07-extreme-precipitation/gev-return-levels.png)
 
 The GEV analysis included:
 
@@ -265,11 +265,11 @@ Relationships among rainfall, temperature, relative humidity, and wind speed wer
 
 ## Regional Mean Pearson Correlation
 
-![Regional Mean Pearson Correlation Heatmap](figures/08-correlations/Regional_Mean_Pearson_Heatmap.png)
+![Regional Mean Pearson Correlation Heatmap](figures/08-correlations/regional-mean-pearson-heatmap.png)
 
 ## District-Level Pearson Correlations
 
-![Combined Four District Pearson Correlation Heatmap](figures/08-correlations/Combined_4District_Pearson_Heatmap.png)
+![Combined Four District Pearson Correlation Heatmap](figures/08-correlations/combined-4-district-pearson-heatmap.png)
 
 The correlation analysis indicates that relationships among climatic variables vary spatially across the four districts.
 
