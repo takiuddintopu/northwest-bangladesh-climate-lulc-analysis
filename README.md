@@ -202,19 +202,19 @@ Agricultural land was not retained as a separate class because it could not be c
 
 ## Rajshahi
 
-![Rajshahi LULC Change](figures/05-lulc/Rajshahi%20LULC.png)
+![Rajshahi LULC Change](figures/05-lulc/Rajshahi_LULC.png)
 
 ## Pabna
 
-![Pabna LULC Change](figures/05-lulc/Pabna%20LULC.png)
+![Pabna LULC Change](figures/05-lulc/Pabna_LULC.png)
 
 ## Natore
 
-![Natore LULC Change](figures/05-lulc/Natore%20LULC.png)
+![Natore LULC Change](figures/05-lulc/Natore_LULC.png)
 
 ## Bogura
 
-![Bogura LULC Change](figures/05-lulc/Bogura%20LULC.png)
+![Bogura LULC Change](figures/05-lulc/Bogura_LULC.png)
 
 The LULC results are interpreted as evidence of broad landscape change rather than exact measurements of individual land conversions.
 
