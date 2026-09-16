@@ -55,11 +55,10 @@ The study area was selected to provide a district-level comparison of climatic b
 
 ---
 
-## 🔬 Analytical Framework
+### Methodological Framework
 
 The study followed an integrated analytical framework combining spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
 
-### Methodological Framework
 
 ![Methodological Framework](figures/02-methodological-framework/Methodological_Framework_Diagram.png)
 
