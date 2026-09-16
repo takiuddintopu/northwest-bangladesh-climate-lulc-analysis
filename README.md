@@ -1,4 +1,4 @@
-# Spatiotemporal Variability and Trends in Climatic Parameters and their Association with Extreme Precipitation, Land use, and Land cover Change in Northwest Bangladesh
+# Spatiotemporal Variability and Trends in Climatic Parameters and Their Association with Extreme Precipitation and Land Use/Land Cover Change in Northwest Bangladesh
 
 [![Study Period](https://img.shields.io/badge/Study%20Period-1973--2023-blue)]()
 [![Study Area](https://img.shields.io/badge/Study%20Area-Northwest%20Bangladesh-green)]()
@@ -49,13 +49,25 @@ The climatic analysis covers the period **1973–2023**.
 
 The study area was selected to provide a district-level comparison of climatic behavior within the broader northwestern region of Bangladesh.
 
-![Study Area Map](figures/01-study-area/study-area-map.png)
+### Study Area Map
+
+![Study Area Map](figures/01-study-area/study%20area%20map.png)
 
 ---
 
-## 📊 Data
+## 🔬 Analytical Framework
 
-### Meteorological Data
+The study followed an integrated analytical framework combining spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
+
+### Methodological Framework
+
+![Methodological Framework](figures/02-methodological-framework/Methodological_Framework_Diagram.png)
+
+---
+
+# 📊 Data
+
+## Meteorological Data
 
 Monthly meteorological data for **1973–2023** were obtained from the **Bangladesh Agricultural Research Council (BARC)**.
 
@@ -72,9 +84,11 @@ Because a corresponding direct station record for Natore was unavailable in the 
 
 Annual rainfall was calculated from accumulated monthly rainfall, while annual temperature, relative humidity, and wind speed were calculated from the corresponding monthly means.
 
-### LULC Data
+---
 
-LULC analysis was conducted for:
+## LULC Data
+
+LULC analysis was conducted for four reference years:
 
 **1985 → 1998 → 2011 → 2023**
 
@@ -89,39 +103,149 @@ Agricultural land was not retained as a separate class because it could not be c
 
 ---
 
-## 🔬 Methodology
+# 🛠️ Methodology
 
-The overall analytical workflow integrated spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
+## Climate Analysis
 
-![Methodological Framework](figures/02-methodological-framework/Methodological-framework.png)
-
-### Climate Analysis
+The climatic analysis included:
 
 - Spatial thematic mapping
 - Linear trend visualization
-- Mann–Kendall trend test
+- Mann–Kendall trend testing
 - Sen's slope estimation
 - Seasonal analysis
 - Monthly climatology
 
-### Extreme Precipitation Analysis
+---
 
-An **Annual Maximum Series (AMS)** was constructed by selecting the highest monthly rainfall value from each year.
+## 🗺️ Spatial Distribution of Climatic Parameters
 
-The AMS was then analyzed using the **Generalized Extreme Value (GEV)** distribution.
+The spatial distribution of the climatic parameters was examined across the four study districts.
 
-The analysis included:
+### Annual Rainfall
+
+![Thematic Map of Rainfall](figures/03-climate-maps/themetic%20map%20rainfall.png)
+
+### Mean Temperature
+
+![Thematic Map of Temperature](figures/03-climate-maps/themetic%20map%20temp.png)
+
+### Relative Humidity
+
+![Thematic Map of Relative Humidity](figures/03-climate-maps/themetic%20map%20humidity.png)
+
+### Wind Speed
+
+![Thematic Map of Wind Speed](figures/03-climate-maps/themetic%20map%20wind.png)
+
+---
+
+# 📈 Long-Term Climate Trends
+
+Long-term trends in rainfall, temperature, relative humidity, and wind speed were evaluated using the **Mann–Kendall trend test** and **Sen's slope estimator**.
+
+## Annual Rainfall Trend
+
+![Annual Rainfall Mann-Kendall Trend](figures/04-climate-trends/Rainfall_MannKendall_Trend.png)
+
+## Mean Temperature Trend
+
+![Mean Temperature Mann-Kendall Trend](figures/04-climate-trends/MeanTemp_MannKendall_Trend.png)
+
+## Relative Humidity Trend
+
+![Relative Humidity Mann-Kendall Trend](figures/04-climate-trends/Humidity_MannKendall_Trend.png)
+
+## Wind Speed Trend
+
+![Wind Speed Mann-Kendall Trend](figures/04-climate-trends/WindSpeed_MannKendall_Trend.png)
+
+---
+
+# 🌦️ Seasonal and Monthly Climatology
+
+The seasonal and monthly behavior of the climatic parameters was examined to characterize the climatological patterns across the study area.
+
+## Monthly Rainfall Climatology
+
+![Monthly Rainfall Climatology](figures/06-seasonal-climatology/Rainfall_MonthlyClimatology.png)
+
+## Monthly Temperature Climatology
+
+![Monthly Temperature Climatology](figures/06-seasonal-climatology/Temperature_MonthlyClimatology.png)
+
+## Monthly Relative Humidity Climatology
+
+![Monthly Humidity Climatology](figures/06-seasonal-climatology/Humidity_MonthlyClimatology.png)
+
+## Monthly Wind Speed Climatology
+
+![Monthly Wind Speed Climatology](figures/06-seasonal-climatology/WindSpeed_MonthlyClimatology.png)
+
+The climatic variables exhibit a strong seasonal cycle, with rainfall concentrated mainly during the monsoon season and substantially lower rainfall during winter.
+
+---
+
+# 🌳 Land Use/Land Cover Change
+
+LULC analysis was conducted using Landsat imagery for four reference years: **1985, 1998, 2011, and 2023**.
+
+A supervised classification approach was used to identify major land-cover categories and compare their composition across the study period.
+
+## Rajshahi
+
+![Rajshahi LULC Change](figures/05-lulc/Rajshahi%20LULC.png)
+
+## Pabna
+
+![Pabna LULC Change](figures/05-lulc/Pabna%20LULC.png)
+
+## Natore
+
+![Natore LULC Change](figures/05-lulc/Natore%20LULC.png)
+
+## Bogura
+
+![Bogura LULC Change](figures/05-lulc/Bogura%20LULC.png)
+
+The LULC results are interpreted as evidence of broad landscape change rather than exact measurements of individual land conversions.
+
+---
+
+# 🌧️ Extreme Precipitation Analysis
+
+Extreme precipitation characteristics were assessed using an **Annual Maximum Series (AMS)** and the **Generalized Extreme Value (GEV)** distribution.
+
+Because complete daily rainfall observations were not available for the full study period, the AMS was constructed by selecting the **maximum monthly rainfall value from each year**.
+
+Therefore, the extreme-value analysis represents **annual maximum monthly rainfall**, rather than conventional daily rainfall extremes.
+
+## Annual Maximum Series Trends
+
+![AMS Rainfall Trends](figures/07-extreme-precipitation/AMS_Trends.png)
+
+## GEV Q-Q Diagnostics
+
+![GEV Q-Q Diagnostics](figures/07-extreme-precipitation/GEV_QQ_Diagnostics.png)
+
+## GEV Return Levels
+
+![GEV Return Levels](figures/07-extreme-precipitation/GEV_ReturnLevels.png)
+
+The GEV analysis included:
 
 - GEV parameter estimation
 - Anderson–Darling goodness-of-fit assessment
-- Gringorten Q–Q diagnostics
+- Gringorten Q-Q diagnostics
 - Return-level estimation
 - 2-, 5-, 10-, 25-, 50-, and 100-year return periods
 - 95% bootstrap confidence intervals
 
-> **Important:** Because complete daily rainfall observations were not available for the study period, the extreme-value analysis represents **annual maximum monthly rainfall**, rather than conventional daily rainfall extremes.
+The estimated return levels increase with longer return periods, while uncertainty becomes greater at longer return periods, particularly for the 50- and 100-year estimates.
 
-### Correlation Analysis
+---
+
+# 📊 Correlation Analysis
 
 Relationships among rainfall, temperature, relative humidity, and wind speed were examined using:
 
@@ -131,35 +255,39 @@ Relationships among rainfall, temperature, relative humidity, and wind speed wer
 - Correlation matrices
 - Heat-map visualization
 
-### LULC Analysis
+## Regional Mean Pearson Correlation
 
-Landsat imagery was classified using a supervised classification approach to identify the four major LULC classes. The resulting maps were compared across the four reference years to document broad changes in land-cover composition.
+![Regional Mean Pearson Correlation Heatmap](figures/08-correlations/Regional_Mean_Pearson_Heatmap.png)
+
+## District-Level Pearson Correlations
+
+![Combined Four District Pearson Correlation Heatmap](figures/08-correlations/Combined_4District_Pearson_Heatmap.png)
+
+The correlation analysis indicates that relationships among climatic variables vary spatially across the four districts.
+
+The regional mean showed a significant negative relationship between temperature and relative humidity:
+
+**Pearson r = −0.307, p = 0.0285**
+
+These relationships represent statistical associations and should not be interpreted as evidence of direct causal relationships.
 
 ---
 
-## 🛠️ Software & Tools
+# 📈 Key Findings
 
-| Tool | Application |
-|---|---|
-| **ArcMap 10.8** | Study area mapping, thematic mapping, LULC classification and spatial analysis |
-| **R** | Trend analysis, Mann–Kendall test, Sen's slope, GEV modelling, diagnostics, return levels and correlation analysis |
-| **Microsoft Excel** | Data organization, preliminary processing and tabulation |
-
----
-
-## 📈 Key Findings
-
-### Climate Trends
+## Climate Trends
 
 - Annual rainfall showed a **decreasing tendency in all four districts**.
 - The rainfall decline was statistically significant in **Natore, Pabna, and Rajshahi**, but not in Bogura.
 - Sen's slope estimates ranged from approximately **−7.04 to −9.00 mm/year**.
 - Rajshahi showed a statistically significant warming trend of approximately **+0.15°C per decade**.
 - Temperature trends in Natore, Pabna, and Bogura were not statistically significant.
-- Relative humidity increased significantly in **Natore, Pabna, and Rajshahi**, while the increase in Bogura was not significant.
+- Relative humidity increased significantly in **Natore, Pabna, and Rajshahi**, while the increase in Bogura was not statistically significant.
 - Wind speed decreased significantly in **Natore and Pabna**, while the trends in Rajshahi and Bogura were not statistically significant.
 
-### Seasonal and Monthly Patterns
+---
+
+## Seasonal and Monthly Patterns
 
 The four districts showed a strong seasonal climatic cycle.
 
@@ -168,15 +296,19 @@ The four districts showed a strong seasonal climatic cycle.
 - Winter rainfall was comparatively low, at approximately **29–35 mm**.
 - Temperature, relative humidity, and wind speed followed distinct seasonal patterns.
 
-### Extreme Precipitation
+---
+
+## Extreme Precipitation
 
 - Annual maximum monthly rainfall showed decreasing trends across all four districts.
 - The decline was statistically significant in **Rajshahi, Natore, and Pabna**, but not in Bogura.
 - GEV models provided acceptable fits according to the Anderson–Darling assessment.
-- Estimated return levels increased with longer return periods, but uncertainty also increased substantially, particularly for the 50- and 100-year estimates.
+- Estimated return levels increased with longer return periods, while uncertainty also increased substantially at longer return periods.
 - The estimated 100-year return levels ranged from approximately **663.8 mm in Natore to 981.9 mm in Pabna**.
 
-### LULC Change
+---
+
+## LULC Change
 
 Substantial changes in land-cover composition were observed between 1985 and 2023.
 
@@ -186,9 +318,11 @@ For example, in Rajshahi:
 - Bare land decreased from **48.42%** to **12.24%**.
 - Classified built-up area increased to **14.18% in 2023**.
 
-The LULC results are interpreted as evidence of broad landscape change rather than exact measurements of individual land conversions.
+The LULC results are interpreted as broad landscape-level changes rather than exact measurements of individual land conversions.
 
-### Climatic Relationships
+---
+
+## Climatic Relationships
 
 The correlation analysis showed that climatic relationships were **spatially variable** rather than uniform across the four districts.
 
@@ -196,21 +330,21 @@ The regional mean showed a significant negative relationship between temperature
 
 **Pearson r = −0.307, p = 0.0285**
 
-However, district-level relationships differed considerably, demonstrating the importance of examining climatic behavior at the district scale.
+The district-level relationships differed considerably, demonstrating the importance of examining climatic behavior at the district scale.
 
 ---
 
-## 🌍 Integrated Interpretation
+# 🌍 Integrated Interpretation
 
 Overall, the study indicates that climatic behavior across northwestern Bangladesh is **spatially heterogeneous, strongly seasonal, and characterized by different long-term tendencies among districts**.
 
-The LULC analysis provides environmental context for these climatic changes, while the correlation analysis demonstrates that the climatic variables themselves are interconnected.
+The LULC analysis provides environmental context for these climatic changes, while the correlation analysis demonstrates that the climatic variables themselves are statistically interconnected.
 
-The study does **not** establish that LULC change caused the observed climatic trends, nor does correlation analysis establish causal relationships.
+However, the study does **not establish that LULC change caused the observed climatic trends**, and the correlation analysis does not establish causal relationships.
 
 ---
 
-## ⚠️ Limitations
+# ⚠️ Limitations
 
 Several limitations should be considered when interpreting the results:
 
@@ -223,21 +357,63 @@ Several limitations should be considered when interpreting the results:
 
 ---
 
-## 📁 Repository Structure
+# 🛠️ Software and Tools
 
-```northwest-bangladesh-climate-lulc-analysis/
+| Tool | Application |
+|---|---|
+| **ArcMap 10.8** | Study area mapping, thematic mapping, LULC classification and spatial analysis |
+| **R** | Trend analysis, Mann–Kendall test, Sen's slope, GEV modelling, diagnostics, return levels and correlation analysis |
+| **Microsoft Excel** | Data organization, preliminary processing and tabulation |
+
+---
+
+# 📁 Repository Structure
+
+```text
+northwest-bangladesh-climate-lulc-trends/
 │
 ├── README.md
 │
 ├── figures/
+│   │
 │   ├── 01-study-area/
-│   ├── 02-analytical-framework/
+│   │   └── study area map.png
+│   │
+│   ├── 02-methodological-framework/
+│   │   └── Methodological_Framework_Diagram.png
+│   │
 │   ├── 03-climate-maps/
+│   │   ├── themetic map humidity.png
+│   │   ├── themetic map rainfall.png
+│   │   ├── themetic map wind.png
+│   │   └── themetic map temp.png
+│   │
 │   ├── 04-climate-trends/
-│   ├── 05-climatology/
-│   ├── 06-lulc/
+│   │   ├── Humidity_MannKendall_Trend.png
+│   │   ├── WindSpeed_MannKendall_Trend.png
+│   │   ├── MeanTemp_MannKendall_Trend.png
+│   │   └── Rainfall_MannKendall_Trend.png
+│   │
+│   ├── 05-lulc/
+│   │   ├── Bogura LULC.png
+│   │   ├── Natore LULC.png
+│   │   ├── Pabna LULC.png
+│   │   └── Rajshahi LULC.png
+│   │
+│   ├── 06-seasonal-climatology/
+│   │   ├── Humidity_MonthlyClimatology.png
+│   │   ├── Rainfall_MonthlyClimatology.png
+│   │   ├── WindSpeed_MonthlyClimatology.png
+│   │   └── Temperature_MonthlyClimatology.png
+│   │
 │   ├── 07-extreme-precipitation/
+│   │   ├── AMS_Trends.png
+│   │   ├── GEV_QQ_Diagnostics.png
+│   │   └── GEV_ReturnLevels.png
+│   │
 │   └── 08-correlations/
+│       ├── Combined_4District_Pearson_Heatmap.png
+│       └── Regional_Mean_Pearson_Heatmap.png
 │
 ├── scripts/
 │   ├── trend-analysis/
