@@ -403,10 +403,10 @@ northwest-bangladesh-climate-lulc-trends/
 │   │   └── Rainfall_MannKendall_Trend.png
 │   │
 │   ├── 05-lulc/
-│   │   ├── Bogura LULC.png
-│   │   ├── Natore LULC.png
-│   │   ├── Pabna LULC.png
-│   │   └── Rajshahi LULC.png
+│   │   ├── Bogura_LULC.png
+│   │   ├── Natore_LULC.png
+│   │   ├── Pabna_LULC.png
+│   │   └── Rajshahi_LULC.png
 │   │
 │   ├── 06-seasonal-climatology/
 │   │   ├── Humidity_MonthlyClimatology.png
