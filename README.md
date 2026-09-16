@@ -123,19 +123,19 @@ The spatial distribution of the climatic parameters was examined across the four
 
 ### Annual Rainfall
 
-![Thematic Map of Rainfall](figures/03-climate-maps/themetic%20map%20rainfall.png)
+![Thematic Map of Rainfall](figures/03-climate-maps/thematic%20map%20rainfall.png)
 
 ### Mean Temperature
 
-![Thematic Map of Temperature](figures/03-climate-maps/themetic%20map%20temp.png)
+![Thematic Map of Temperature](figures/03-climate-maps/thematic%20map%20temp.png)
 
 ### Relative Humidity
 
-![Thematic Map of Relative Humidity](figures/03-climate-maps/themetic%20map%20humidity.png)
+![Thematic Map of Relative Humidity](figures/03-climate-maps/thematic%20map%20humidity.png)
 
 ### Wind Speed
 
-![Thematic Map of Wind Speed](figures/03-climate-maps/themetic%20map%20wind.png)
+![Thematic Map of Wind Speed](figures/03-climate-maps/thematic%20map%20wind.png)
 
 ---
 
