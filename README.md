@@ -191,6 +191,15 @@ LULC analysis was conducted using Landsat imagery for four reference years: **19
 
 A supervised classification approach was used to identify major land-cover categories and compare their composition across the study period.
 
+Four major classes were considered:
+
+- Built-up area
+- Water bodies
+- Vegetation/forest
+- Bare land
+
+Agricultural land was not retained as a separate class because it could not be consistently distinguished from vegetation and bare land during interpretation of the Landsat imagery.
+
 ## Rajshahi
 
 ![Rajshahi LULC Change](figures/05-lulc/Rajshahi%20LULC.png)
