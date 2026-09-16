@@ -167,7 +167,7 @@ The seasonal and monthly behavior of the climatic parameters was examined to cha
 
 ## Monthly Rainfall Climatology
 
-![Monthly Rainfall Climatology](figures/06-seasonal-climatology/rainfall-monthly-climatology.png)
+![Monthly Rainfall Climatology](figures/06-seasonal-climatology/rainfall_monthly-climatology.png)
 
 ## Monthly Temperature Climatology
 
