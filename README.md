@@ -73,7 +73,7 @@ Monthly meteorological data for **1973–2023** were obtained from the **Banglad
 
 | Parameter | Period | Temporal Resolution |
 |---|---:|---|
-| Rainfall | 1973–2023 | Monthly |
+|Rainfall | 1973–2023 | Monthly |
 | Temperature | 1973–2023 | Monthly |
 | Relative Humidity | 1973–2023 | Monthly |
 | Wind Speed | 1973–2023 | Monthly |
