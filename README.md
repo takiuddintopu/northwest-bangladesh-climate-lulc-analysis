@@ -425,8 +425,9 @@ northwest-bangladesh-climate-lulc-trends/
 │
 ├── scripts/
 │   ├── trend-analysis/
+│   ├── climatology-analysis/
 │   ├── gev-analysis/
-│   └── correlation-analysis/
+|   └── correlation-analysis/   
 │
 ├── results/
 │   ├── tables/
