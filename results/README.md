@@ -1,16 +1,14 @@
-# Results Tables
+# Results
 
-This folder contains the main machine-readable result tables used in the thesis/project.
+This folder contains the main tabular results of the study.
 
-- `climate_trend_statistics.csv` — combined Mann-Kendall and Sen's slope statistics for rainfall, temperature, relative humidity, and wind speed.
-- `monthly_climatology.csv` — 1973–2023 monthly climatological values for the four study districts and four climate variables.
-- `seasonal_climate_summary.csv` — seasonal mean and standard deviation for the four climate variables.
-- `gev_parameters_gof.csv` — GEV parameter estimates and goodness-of-fit statistics for annual maximum monthly rainfall.
-- `gev_return_levels.csv` — GEV return-level estimates and confidence intervals.
+### Tables
 
-## Notes
+* `lulc-change-summary.csv` — LULC class distribution for the four study districts (1985–2023).
+* `climate-trend-statistics.csv` — Mann-Kendall test and Sen’s slope statistics for rainfall, temperature, relative humidity, and wind speed (1973–2023).
+* `monthly-climatology.csv` — Monthly climatological patterns of the four climate variables.
+* `seasonal-climate-summary.csv` — Seasonal mean and standard deviation of climatic variables.
+* `gev-parameters-gof.csv` — GEV parameter estimates and goodness-of-fit statistics for annual maximum monthly rainfall.
+* `gev-return-levels.csv` — GEV-based rainfall return-level estimates and confidence intervals.
 
-- Study period: 1973–2023.
-- Wind-speed Sen's slope is reported in `m/s/yr`.
-- The GEV analysis uses annual maximum **monthly rainfall totals**, rather than annual maximum daily rainfall, because a complete daily record for the full study period was not available.
-- Values are derived from the project's supplied CSV result files.
+These tables provide the machine-readable results underlying the figures and findings presented in the thesis.
