@@ -1,0 +1,17 @@
+District,Variable,N_Years,Mean,SD,Sen_Slope,Sen_Slope_Unit,MK_Tau,MK_Pvalue,MK_Significance
+Bogura,Humidity,51,77.58,2.02,0.0175,%/yr,0.0816,0.4028,ns
+Natore,Humidity,51,77.42,2.59,0.1145,%/yr,0.4369,0.0,***
+Pabna,Humidity,51,76.87,3.16,0.1397,%/yr,0.4886,0.0,***
+Rajshahi,Humidity,51,77.65,2.81,0.1341,%/yr,0.5482,0.0,***
+Bogura,Temperature,51,22.47,0.79,-0.0031,°C/yr,-0.0385,0.6966,ns
+Natore,Temperature,51,23.07,0.78,0.0083,°C/yr,0.1146,0.2389,ns
+Pabna,Temperature,51,23.22,0.88,0.0005,°C/yr,0.0039,0.9741,ns
+Rajshahi,Temperature,51,25.96,0.37,0.0153,°C/yr,0.4315,0.0,***
+Bogura,Rainfall,51,1757.57,374.03,-7.037,mm/yr,-0.1859,0.0553,ns
+Natore,Rainfall,51,1538.32,284.84,-8.9969,mm/yr,-0.3082,0.0015,**
+Pabna,Rainfall,51,1557.59,384.52,-7.8387,mm/yr,-0.2094,0.0307,*
+Rajshahi,Rainfall,51,1438.92,297.03,-8.7083,mm/yr,-0.3145,0.0012,**
+Bogura,WindSpeed,51,1.2,0.39,0.0032,m/s/yr,0.1186,0.223,ns
+Natore,WindSpeed,51,1.38,0.42,-0.0129,m/s/yr,-0.3123,0.0013,**
+Pabna,WindSpeed,51,1.46,0.55,-0.0141,m/s/yr,-0.3917,0.0001,***
+Rajshahi,WindSpeed,51,1.33,0.52,0.0012,m/s/yr,0.018,0.8582,ns
