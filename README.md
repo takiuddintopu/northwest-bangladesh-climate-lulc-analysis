@@ -385,43 +385,43 @@ northwest-bangladesh-climate-lulc-trends/
 ├── figures/
 │   │
 │   ├── 01-study-area/
-│   │   └── study area map.png
+│   │   └── study-area-map.png
 │   │
 │   ├── 02-methodological-framework/
-│   │   └── Methodological_Framework_Diagram.png
+│   │   └── methodological-framework-diagram.png
 │   │
 │   ├── 03-climate-maps/
-│   │   ├── themetic map humidity.png
-│   │   ├── themetic map rainfall.png
-│   │   ├── themetic map wind.png
-│   │   └── themetic map temp.png
+│   │   ├── themetic-map-humidity.png
+│   │   ├── themetic-map-rainfall.png
+│   │   ├── themetic-map-wind.png
+│   │   └── themetic-map-temp.png
 │   │
 │   ├── 04-climate-trends/
-│   │   ├── Humidity_MannKendall_Trend.png
-│   │   ├── WindSpeed_MannKendall_Trend.png
-│   │   ├── MeanTemp_MannKendall_Trend.png
-│   │   └── Rainfall_MannKendall_Trend.png
+│   │   ├── humidity-mannkendall-trend.png
+│   │   ├── windSpeed-mannkendall-trend.png
+│   │   ├── meantemp-mannkendall-trend.png
+│   │   └── rainfall-mannkendall-trend.png
 │   │
 │   ├── 05-lulc/
-│   │   ├── Bogura_LULC.png
-│   │   ├── Natore_LULC.png
-│   │   ├── Pabna_LULC.png
-│   │   └── Rajshahi_LULC.png
+│   │   ├── bogura-lulc.png
+│   │   ├── natore-lulc.png
+│   │   ├── pabna-lulc.png
+│   │   └── rajshahi-lulc.png
 │   │
 │   ├── 06-seasonal-climatology/
-│   │   ├── Humidity_MonthlyClimatology.png
-│   │   ├── Rainfall_MonthlyClimatology.png
-│   │   ├── WindSpeed_MonthlyClimatology.png
-│   │   └── Temperature_MonthlyClimatology.png
+│   │   ├── humidity-monthly-climatology.png
+│   │   ├── rainfall-monthly-climatology.png
+│   │   ├── windspeed-monthly-climatology.png
+│   │   └── temperature-monthly-climatology.png
 │   │
 │   ├── 07-extreme-precipitation/
-│   │   ├── AMS_Trends.png
-│   │   ├── GEV_QQ_Diagnostics.png
-│   │   └── GEV_ReturnLevels.png
+│   │   ├── ams-trends.png
+│   │   ├── gev-qq-diagnostics.png
+│   │   └── gev-return-Levels.png
 │   │
 │   └── 08-correlations/
-│       ├── Combined_4District_Pearson_Heatmap.png
-│       └── Regional_Mean_Pearson_Heatmap.png
+│       ├── combined-4-district-pearson-heatmap.png
+│       └── regional-mean-pearson-heatmap.png
 │
 ├── scripts/
 │   ├── trend-analysis/
@@ -430,8 +430,18 @@ northwest-bangladesh-climate-lulc-trends/
 |   └── correlation-analysis/   
 │
 ├── results/
-│   ├── tables/
-│   └── summary/
+|   |
+|   ├── README.md
+│   |
+|   ├── tables/
+│   |   ├── lulc-change-summary.csv
+│   |   ├── climate-trend-statistics.csv
+│   |   ├── seasonal-climate-summary.csv
+│   |   ├── gev-parameters-gof.csv
+│   |   └── gev-return-levels.csv
+│   |
+|   └── summary/
+|        └── key-findings.md
 │
 ├── gis/
 │   ├── climate-maps/
