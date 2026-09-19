@@ -466,8 +466,8 @@ northwest-bangladesh-climate-lulc-trends/
 │   └── README.md
 │
 |
-├── thesis/
-│   └── thesis.pdf
+├── project/
+│   └── undergraduate-project.pdf
 │
 |
 └── LICENSE
