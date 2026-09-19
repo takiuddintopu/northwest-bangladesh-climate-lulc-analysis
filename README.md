@@ -423,34 +423,41 @@ northwest-bangladesh-climate-lulc-trends/
 │       ├── combined-4-district-pearson-heatmap.png
 │       └── regional-mean-pearson-heatmap.png
 │
+|
 ├── scripts/
-│   ├── trend-analysis/
-│   ├── climatology-analysis/
-│   ├── gev-analysis/
-|   └── correlation-analysis/   
-│
-├── results/
+│   ├── 01-trend-analysis/
+|   |   └── annual-climate-trend-analysis.R
 |   |
+│   ├── 02-climatology-analysis/
+|   |   ├── monthly-climatology.R
+│   |   └── seasonal-climate-variability.R
+|   |
+│   ├── 03-gev-analysis/
+|   |   └── gev-annual-maximum-monthly-rainfall.R
+|   |
+|   └── 04-correlation-analysis/
+|       ├── climate-correlation-analysis.R
+│       └── pearson-heatmaps.R
+│
+|
+├── results/
 |   ├── README.md
 │   |
-|   ├── tables/
-│   |   ├── lulc-change-summary.csv
-│   |   ├── climate-trend-statistics.csv
-│   |   ├── seasonal-climate-summary.csv
-│   |   ├── gev-parameters-gof.csv
-│   |   └── gev-return-levels.csv
-│   |
-|   └── summary/
-|        └── key-findings.md
+|   └── tables/
+│       ├── lulc-change-summary.csv
+│       ├── climate-trend-statistics.csv
+│       ├── monthly-climatology.csv
+|       ├── seasonal-climate-summary.csv
+│       ├── gev-parameters-gof.csv
+│       └── gev-return-levels.csv
 │
-├── gis/
-│   ├── climate-maps/
-│   └── lulc/
-│
+|
 ├── data/
 │   └── README.md
 │
+|
 ├── thesis/
 │   └── thesis.pdf
 │
+|
 └── LICENSE
