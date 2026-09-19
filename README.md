@@ -408,10 +408,10 @@ northwest-bangladesh-climate-lulc-trends/
 │   │   └── methodological-framework-diagram.png
 │   │
 │   ├── 03-climate-maps/
-│   │   ├── themetic-map-humidity.png
-│   │   ├── themetic-map-rainfall.png
-│   │   ├── themetic-map-wind.png
-│   │   └── themetic-map-temp.png
+│   │   ├── thematic-map-humidity.png
+│   │   ├── thematic-map-rainfall.png
+│   │   ├── thematic-map-wind.png
+│   │   └── thematic-map-temp.png
 │   │
 │   ├── 04-climate-trends/
 │   │   ├── humidity-mannkendall-trend.png
@@ -434,7 +434,7 @@ northwest-bangladesh-climate-lulc-trends/
 │   ├── 07-extreme-precipitation/
 │   │   ├── ams-trends.png
 │   │   ├── gev-qq-diagnostics.png
-│   │   └── gev-return-Levels.png
+│   │   └── gev-return-levels.png
 │   │
 │   └── 08-correlations/
 │       ├── combined-4-district-pearson-heatmap.png
