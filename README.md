@@ -375,6 +375,16 @@ Several limitations should be considered when interpreting the results:
 
 ---
 
+## License
+
+The original code and scripts in this repository are licensed under the [MIT License](LICENSE).
+
+The thesis document, figures, tables, datasets, and other materials included in this repository may be subject to separate copyright, ownership, or usage restrictions. The MIT License should not be interpreted as granting rights to third-party materials or materials for which separate ownership or licensing terms apply.
+
+Please provide appropriate attribution when using or adapting the original work from this repository.
+
+--- 
+
 # 📁 Repository Structure
 
 ```text
