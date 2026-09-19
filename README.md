@@ -463,6 +463,7 @@ northwest-bangladesh-climate-lulc-trends/
 |
 ├── results/
 |   ├── README.md
+|   |
 |   └── tables/                                                # Key statistical tables (CSV)
 │       ├── lulc-change-summary.csv
 │       ├── climate-trend-statistics.csv
