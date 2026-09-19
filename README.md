@@ -392,8 +392,9 @@ northwest-bangladesh-climate-lulc-trends/
 │
 ├── README.md
 │
+├── LICENSE
+|
 ├── figures/
-│   │
 │   ├── 01-study-area/
 │   │   └── study-area-map.png
 │   │
@@ -450,10 +451,13 @@ northwest-bangladesh-climate-lulc-trends/
 │       └── pearson-heatmaps.R
 │
 |
+├── data/
+│   └── README.md                                              # Data sources, processing notes & limitations
+|
+|
 ├── results/
 |   ├── README.md
-│   |
-|   └── tables/
+|   └── tables/                                                # Key statistical tables (CSV)
 │       ├── lulc-change-summary.csv
 │       ├── climate-trend-statistics.csv
 │       ├── monthly-climatology.csv
@@ -462,12 +466,6 @@ northwest-bangladesh-climate-lulc-trends/
 │       └── gev-return-levels.csv
 │
 |
-├── data/
-│   └── README.md
-│
-|
-├── project/
-│   └── undergraduate-project.pdf
-│
-|
-└── LICENSE
+└──  project/
+    └── undergraduate-project.pdf                              # Full undergraduate research report
+
