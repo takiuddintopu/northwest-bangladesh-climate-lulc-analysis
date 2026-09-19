@@ -20,6 +20,13 @@ The study also examines **land use/land cover (LULC) change** across four refere
 
 ---
 
+## Full Project Document
+
+The complete undergraduate research report is available here:  
+**[Download PDF](project/undergraduate-project.pdf)**
+
+---
+
 ## 🎯 Objectives
 
 The study was designed around five objectives:
@@ -52,15 +59,6 @@ The study area was selected to provide a district-level comparison of climatic b
 ### Study Area Map
 
 ![Study Area Map](figures/01-study-area/study-area-map.png)
-
----
-
-### Methodological Framework
-
-The study followed an integrated analytical framework combining spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
-
-
-![Methodological Framework](figures/02-methodological-framework/methodological-framework-diagram.png)
 
 ---
 
@@ -103,6 +101,14 @@ Agricultural land was not retained as a separate class because it could not be c
 ---
 
 # 🛠️ Methodology
+
+### Methodological Framework
+
+The study followed an integrated analytical framework combining spatial analysis, statistical trend assessment, climatological analysis, extreme-value analysis, correlation analysis, and LULC assessment.
+
+
+![Methodological Framework](figures/02-methodological-framework/methodological-framework-diagram.png)
+
 
 ## Climate Analysis
 
